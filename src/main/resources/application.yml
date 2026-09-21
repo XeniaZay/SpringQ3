@@ -1,0 +1,27 @@
+
+routes:
+  default-service: gateway
+  rules:
+    - prefix: /api/users/
+      service: users
+    - prefix: /api/payments/
+      service: payments
+  overrides:
+    users: users-v1
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+routes:
+  rules:
+    - prefix: /api/users/
+      service: users
+    - prefix: /api/payments/
+      service: payments
+    - prefix: /api/analytics/
+      service: analytics
+  overrides:
+    users: users-v2
+    analytics: analytics-prod
