@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConditionalOnProperty
+@ConditionalOnProperty("pricing.new-algorithm")
 public class NewDiscountPolicy implements DiscountPolicy{
 
     @Override

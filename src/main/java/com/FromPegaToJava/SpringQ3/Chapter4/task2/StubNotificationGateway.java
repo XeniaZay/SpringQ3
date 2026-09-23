@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Profile("dev")
 public class StubNotificationGateway implements NotificationGateway{
-
     @Override
     public String send(String user, String message){
         return "[DEV-STUB] " + user + ": " + message;
