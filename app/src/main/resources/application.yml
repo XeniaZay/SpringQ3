@@ -1,0 +1,70 @@
+debug: true
+
+spring:
+  application:
+    name: Chapter5.task3
+#routes:
+#  default-service: gateway
+#  rules:
+#    - prefix: /api/users/
+#      service: users
+#    - prefix: /api/payments/
+#      service: payments
+#  overrides:
+#    users: users-v1
+#
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: prod
+
+##task1
+#catalog:
+#  client:
+#    base-url: https://catalog.internal
+#    timeout: 1500ms
+#    metrics-enabled: true
+#    max-retries: 3
+#
+##task3
+#pricing:
+#  new-algorithm:
+#    enabled: true
+#
+##task4
+#routes:
+#  default-service: gateway
+#  rules:
+#    - prefix: /api/users/
+#      service: users
+#    - prefix: /api/payments/
+#      service: payments
+#  overrides:
+#    users: users-v1
+#
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: prod
+#routes:
+#  rules:
+#    - prefix: /api/users/
+#      service: users
+#    - prefix: /api/payments/
+#      service: payments
+#    - prefix: /api/analytics/
+#      service: analytics
+#  overrides:
+#    users: users-v2
+#    analytics: analytics-prod
+#
+#
+##task5
+#warehouse:
+#  client:
+#    enabled: true
+#    base-url: https://warehouse.internal
+#    token: ${WAREHOUSE_TOKEN}
+

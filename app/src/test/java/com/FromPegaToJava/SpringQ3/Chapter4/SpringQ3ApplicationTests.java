@@ -1,4 +1,4 @@
-package com.FromPegaToJava.SpringQ3;
+package com.FromPegaToJava.SpringQ3.Chapter4;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

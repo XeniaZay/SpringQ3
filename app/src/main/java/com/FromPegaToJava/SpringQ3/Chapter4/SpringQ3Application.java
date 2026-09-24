@@ -1,4 +1,4 @@
-package com.FromPegaToJava.SpringQ3;
+package com.FromPegaToJava.SpringQ3.Chapter4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

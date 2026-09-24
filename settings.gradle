@@ -1,1 +1,4 @@
 rootProject.name = 'SpringQ3'
+
+include 'app'
+include 'greeting-autoconfigure'
