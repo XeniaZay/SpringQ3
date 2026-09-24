@@ -2,7 +2,16 @@ debug: true
 
 spring:
   application:
-    name: Chapter5.task3
+    name: Chapter5
+
+
+#Ch5:
+#task3
+greeting:
+  enabled: true
+  prefix: "Привет"
+
+#Ch4:
 #routes:
 #  default-service: gateway
 #  rules:
